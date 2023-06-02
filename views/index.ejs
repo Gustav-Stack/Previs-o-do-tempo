@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="/styles.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <title>Wheater</title>
+</head>
+<body>
+    
+    <div class="heading">
+    <form style=<%=click%> class="formular" action="/" method="post">
+        <label for="cityInput"><i class="fa-solid fa-location-dot"></i></label>
+        <input class="bar" id="cityInput" type="text" name="City" placeholder="<%=query%>">
+        <button class="submit"type="submit"><i class="fa-solid fa-magnifying-glass"></button></i></button><br>
+        <img src="<%=imgURL%>" alt="">
+        <p class="degree"><%=temp%> °c</p><br>
+        <p class="description"><%= descripition %> <br> </p>
+        <p><i class="icon fa-solid fa-wind "></i><%= windSpeed%>km/h <br> Wind Speed</p>
+        <p><i class="icon fa-solid fa-water "></i><%= humidity %>% <br> Humidty</p>
+        
+    </form>
+</div>
+   </body>
+</html>

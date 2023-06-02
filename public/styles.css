@@ -1,0 +1,74 @@
+body{
+    background-color: #04AEC4;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-family: 'Open Sans', sans-serif;
+}
+.formular {
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    width: 300px;
+    border-radius: 20px;
+    padding: 50px;
+    flex-wrap: wrap;
+    box-shadow: 1px 5px 5px  black;
+}
+label{
+    content: "\f3c5";
+    font-size: 26px;
+    position: relative;
+    top: 9px;
+}
+
+
+img{
+    display: block;
+    position: relative;
+    width: 220px;
+    margin: auto;
+}
+.bar{
+    border: 000;
+    width: 230px;
+    height: 55px;
+    font-size: 20px;
+    background-color: #ffff;
+}
+.submit{
+    border: 0;
+    background: white;
+    font-size: 25px;
+    margin-top: 11px;
+    margin-left: 5px;
+}
+p{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+.degree{
+    font-weight: bold;
+    position: relative;
+    font-size: 55px;
+    text-align: center;
+    margin: auto;
+}
+.description{
+    margin: auto;
+    padding: 0 50px 0 40px;
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+}
+.icon{
+    position: relative;
+    top: 3px;
+    font-size: 34px;
+    
+    margin: auto;
+    margin-right: 4px;
+}
